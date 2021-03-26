@@ -12,7 +12,9 @@ yarn
 
 ## Usage
 
-The default script searches for the next 11+ trait corgi starting at a specifc block number, and there is also an example function for a "full pumpkin" corgi. New searches can be added by updating the if-statements to the properties that you're looking for. When you're happy with your search run `node index.js` and the script will start searching. It prints the block numbers it is currently trying, and **stops** when it has found something (or when it has searched unsuccesfully for 10,000 blocks). So the final number in the terminal is the corgi you are looking for.
+The default script searches for the next 11+ trait corgi starting at a specifc block number, and there is also an example function for a "full pumpkin" corgi. New searches can be added by updating the if-statements to the properties that you're looking for. You also need to update the start block number to the most recent block (or any different block if you want).
+
+When you're happy with your search run `node index.js` and the script will start searching. It prints the block numbers it is currently trying, and **stops** when it has found something (or when it has searched unsuccesfully for 10,000 blocks). So the final number in the terminal is the corgi you are looking for.
 
 ## Contributing
 
