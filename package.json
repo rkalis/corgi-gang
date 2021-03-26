@@ -1,0 +1,12 @@
+{
+  "name": "gan-gang",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "delay": "^5.0.0",
+    "jsdom": "^16.5.0",
+    "node-html-parser": "^3.0.4"
+  }
+}
